@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#title {
+    width: 100vw;
+    background: linear-gradient(rgb(156, 29, 80), rgb(97, 18, 50));
+    padding: 2rem 2rem;
+}
+
+#Subtitle {
+    width: 100vw;
+    background: linear-gradient(rgb(29, 63, 156), rgb(18, 26, 97));
+    padding: 2rem 2rem;
+}
+
+body {
+    background: linear-gradient(white 80%, rgb(126, 126, 126) 100%);
+}
+
+h1 {
+    font-size: clamp(2.5rem, 5vh, 4rem);
+}
+
+h3 {
+    margin: 1rem 1rem;
+}
+p,ol,ul,img,b {
+    margin: 0.5rem 1rem;
+}
+
+li b {
+    margin: 0 0;
+}
+
+ol,ul {
+    padding-left: 1.5rem;
+}
+
+img {
+    display: block;
+    margin: 0.5rem auto;
+}
+
+.Horizontal {
+    width: clamp(20%, 450px, 90%);
+    height: auto;
+}
+
+.Vertical {
+    width: clamp(10%, 170px, 90%);
+    height: auto;
+}
+
+.Square {
+    width: clamp(20%, 253px, 90%);
+    height: auto;
+}
+
+#Indice {
+    margin: 1rem 1rem;
+    border-radius: 1rem;
+    width: auto;
+    height: 100%;
+    padding: 0.5rem 0 1rem 0;
+    background: linear-gradient(rgb(156, 29, 80), rgb(97, 18, 50));
+    color: white;
+    font-weight: bold;
+}
+
+#Indice h2 {
+    text-align: center;
+}
+
+#Indice a {
+    color: white;
+}
+
+#Pie {
+    width: 100vw;
+    background: linear-gradient(rgb(156, 29, 80), rgb(97, 18, 50));
+    padding: 2rem 2rem;
+}
+
+#SubPie {
+    width: 100vw;
+    background: linear-gradient(rgb(29, 63, 156), rgb(18, 26, 97));
+    padding: 2rem 2rem;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex li {
+    margin: 0.5rem 2rem;
+}
+
+
+#Listado {
+    margin: 1rem 1rem;
+    border-radius: 1rem;
+    width: auto;
+    height: 100%;
+    padding: 0.5rem 0 1rem 0;
+    background: linear-gradient(rgb(29, 63, 156), rgb(18, 26, 97));
+    color: white;
+    font-weight: bold;
+}
+
+#Listado a {
+    color: white;
+}
+
+#Listado h2 {
+    text-align: center;
+}
